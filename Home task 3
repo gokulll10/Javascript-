@@ -26,13 +26,13 @@ const addMultipleTasks = function (...newTasks) {
 };
 
 function scopeExample() {
-    let localTask = "Read book"; // Local scope variable
+    let localTask = "RUNNING"; 
     console.log("Inside function - localTask:", localTask);
     console.log("Inside function - tasks:", tasks); // Access global
 }
 console.log("Outside function - global tasks:", tasks);
 
-addTask("Complete homework", printTasks);         
-addMultipleTasks("Wash dishes", "Code project");  
+addTask("improve stamina", printTasks);         
+addMultipleTasks("body fitness", "healthy life");  
 printTasks();                                     
 scopeExample();                                   
