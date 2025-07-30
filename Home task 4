@@ -26,7 +26,7 @@ function countVowels(str) {
 
 
 
-let sentence = "I am learning JavaScript";
+let sentence = "HI COMPUTER SCIENCE DEPARTMENT";
 console.log("Original Sentence:", sentence);
 console.log("Reversed Words:", reverseWordsInSentence(sentence));
 
@@ -34,6 +34,6 @@ let numbers = [1, 2, 3, 2, 4, 1, 5];
 console.log("Original Array:", numbers);
 console.log("Without Duplicates:", removeDuplicates(numbers));
 
-let text = "Hello Yuvaraj, Keep Hustling!";
+let text = "HEY HOW ARE YOU? I AM FINE";
 console.log("Input String:", text);
 console.log("Vowel Count:", countVowels(text));
