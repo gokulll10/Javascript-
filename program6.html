@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="enter your list" id="inputvalue">
+    <button onclick="addtask()">Add-Task</button>
+    <ul id="'listcontent"></ul>
+
+    <script>
+        function addtask(){
+            let textContent=document.getElementById("inputValue").value.trim();
+            if(textcontent ==="") return;
+            
+            let li=document.createElement("li")
+            li.textContent=textValue;
+
+            document.getElementById("listcontent").appeChild(li);
+
+            const rwemoveBtn=document.createElement("button")
+            removeBtn.textContent="remove";
+
+            removeBtn.addEventListener("click" , function(e){
+                li.remove();
+            })
+
+            li.appenchild(removeBtn);
+        }
+    </script>
+    
+</body>
+</html>
